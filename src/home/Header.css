@@ -1,0 +1,54 @@
+#top-bar{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  #coffee-company-logo{
+    height: 60px;
+    margin: 20px auto;
+    display: flex;
+  }
+  
+  #navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    font-size: 15px;
+  }
+
+  #subheader{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #cc-header{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  #cc-subheader{
+    text-align: center;
+    color: #734918;
+  }
+  
+  .navbar-option{
+    margin: 2px 40px;
+  }
+  
+  .shop-cart{
+    margin-top: 5px;
+  }
+  
+  .header-img{
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+  }
