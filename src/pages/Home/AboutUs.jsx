@@ -1,7 +1,7 @@
 import React from 'react'
-import employee1 from '../assets/employeeProfiles/employee1.jpg'
-import employee2 from '../assets/employeeProfiles/employee2.jpg'
-import employee3 from '../assets/employeeProfiles/employee3.jpg'
+import employee1 from '../../assets/employeeProfiles/employee1.jpg'
+import employee2 from '../../assets/employeeProfiles/employee2.jpg'
+import employee3 from '../../assets/employeeProfiles/employee3.jpg'
 import './AboutUs.css'
 
 const AboutUs = () => {

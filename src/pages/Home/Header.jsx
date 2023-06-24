@@ -1,8 +1,8 @@
 import React from 'react'
-import mokaPot from '../assets/mokapot.png'
+import mokaPot from '../../assets/mokapot.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
-import coffeePour from '../assets/coffeepour.jpg'
+import coffeePour from '../../assets/coffeepour.jpg'
 import './Header.css'
 
 const Header = () => {

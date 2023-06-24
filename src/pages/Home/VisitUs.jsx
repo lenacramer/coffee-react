@@ -4,7 +4,7 @@ import './VisitUs.css'
 const VisitUs = () => {
   return (
     <div id='visit-us-card'>
-        <div className='spacer'> </div>
+        <div className='spacer'></div>
         <h1 id='visit-us-header'>Visit Us</h1>
         <div id='visit-info'>
           <div class='info'>
@@ -16,6 +16,7 @@ const VisitUs = () => {
             <p>City, AA 99999</p>
           </div>
           </div>
+          <div className='spacer'></div>
     </div>
   )
 }

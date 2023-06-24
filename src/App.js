@@ -1,16 +1,13 @@
 import './App.css';
-import Header from './home/Header'
-import ShopPreview from './home/ShopPreview';
-import AboutUs from './home/AboutUs'; 
-import VisitUs from './home/VisitUs';
+import HomePage from './pages/Home/HomePage';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <ShopPreview/>
-      <AboutUs/>
-      <VisitUs/>
+      <Routes>
+        <Route path='/' element={<HomePage />}/>
+      </Routes>
     </div>
   );
 }
